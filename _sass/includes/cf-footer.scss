@@ -1,0 +1,71 @@
+.cf-footer {
+  background-color: $black;
+  font-size: .75rem;
+  font-weight: 200;
+
+  .flexcontainer {
+  display: flex;
+  gap: 2rem;
+  padding: 1rem 0;
+  align-items: center;
+
+  @media screen and (max-width: 1024px) {
+  flex-direction: column;
+  align-items: start;
+  padding: 1.5rem 0;
+  }
+
+    .cf-logo {
+    align-items: center;
+      display: flex;
+    img {min-width: 350px;
+
+        @media screen and (max-width: 1024px) {
+        min-width: 300px;
+        }
+      }
+    }
+
+    .license {
+    color: $grey-1;
+
+      i {
+      color: $grey-1;
+      }
+
+      a {
+       color: $grey-1;
+        font-size: .75rem;
+      }
+
+      @media screen and (max-width: 1024px) {
+        justify-self: left;
+        padding: 1rem 0;
+      }
+    }
+
+    .sponsorcontainer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+
+    @media screen and (max-width: 1024px) {
+    padding-left: 0;
+    }
+
+      .sponsor {
+      justify-self: end;
+      color: $grey-1;
+      white-space: nowrap;
+      padding-right: .75rem;
+      }
+
+      .sponsor-logo {
+        display: flex;
+      justify-self: end;
+        img { width: 6rem; max-width: none !important;
+        }
+      }
+    }
+  }
+}

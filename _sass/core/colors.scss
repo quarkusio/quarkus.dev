@@ -1,0 +1,62 @@
+/** 
+
+This is a partial.
+It lies in <source>/_sass, just waiting to be imported.
+It does not contain the YAML front matter and has no corresponding output file in the built site. 
+
+*/
+
+$primary: #436C8E;
+$primary-tint-0: #c7d3dd;
+$primary-tint-1: #7b98b0;
+$primary-shade-3: #2f4c63;
+$primary-shade-4: #223647;
+
+$secondary: #F1A208;
+$secondary-tint-0: #fcecce;
+$secondary-tint-1: #f7c76b;
+$secondary-shade-3: #c18206;
+$secondary-shade-4: #916105;
+
+
+$accent: #3DDC97;
+$accent-tint-0: #d8f8ea;
+$accent-tint-1: #8beac1;
+$accent-shade-3: #31b079;
+$accent-shade-4: #25845b;
+
+
+$black : #000000;
+$white : #FFFFFF;
+
+
+// HyperLink colors 
+$link : #0000EE;
+$link-visited : #551A8B;
+$link-hover: #000077;
+
+$link-dark-bg: #9BCAFA;
+$link-light-bg: #1259A5;
+
+// Grayscale
+$gray-0 : #EFEFEF;
+$gray-1 : #AAAAAA;
+$gray-2 : #555555;
+$gray-3 : #4C4C4C;
+$gray-4 : #222222;
+
+// Alternative spelling
+$grey-0 : #EFEFEF;
+$grey-1 : #AAAAAA;
+$grey-2 : #555555;
+$grey-3 : #333333;
+$grey-4 : #222222;
+
+// Code Highlight Colors
+$orange: #E37B40;
+$dark-orange: #85372C;
+$yellow: #F0CA4D;
+$dark-yellow: #90792E;
+$teal: #46B29D;
+$dark-blue: #1E2E37;
+$dark-teal: #2A6B5E;

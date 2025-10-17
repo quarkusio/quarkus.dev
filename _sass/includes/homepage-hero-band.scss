@@ -1,0 +1,42 @@
+.homepage-hero-band {
+  background-image: url($baseurl + '/assets/images/bg-home-primary.png');
+  background-repeat: repeat-x;
+
+  * {color: $white; }
+
+  a {
+  &:hover, &:active, &:focus {
+    color: $primary-tint-1;
+  }
+}
+
+
+  h1 {
+    font-weight: 600;
+  }
+
+  .heroversioncontent {
+    @media screen and (max-width: 1400px) {
+    grid-column: span 12;
+    }
+  }
+
+  .heroversion {
+      margin: 0;
+      font-weight:600;
+      font-size: 1.8rem;
+      line-height: 3rem;
+  }
+
+  .nowavailable, .moreinfo {
+    margin: .1rem;
+    font-size: 1.2rem;
+  }
+
+  .nowavailable {
+
+    @media screen and (max-width: 1400px) {
+    margin-top: 1rem;
+    }
+  }
+}

@@ -1,0 +1,65 @@
+.component-wrapper {
+  margin-top: 4rem;
+  margin-bottom: 6rem;
+}
+
+.component-name {
+  background-color: $primary-shade-4;
+
+  h5 {
+    color: $white;
+    margin: 1rem;
+    text-transform: uppercase;
+  }
+}
+
+
+.flexcontainer {
+  padding: 30px 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+
+}
+.flexcolumn {
+  flex-basis:100%;
+}
+
+.flexColor {
+  color: white;
+  text-align: center;
+  padding: 3rem;
+}
+
+.color-primary { background-color: $primary;} 
+.color-primary-tint-0 { background-color: $primary-tint-0;} 
+.color-primary-tint-1 { background-color: $primary-tint-1;} 
+.color-primary-shade-3 { background-color: $primary-shade-3;} 
+.color-primary-shade-4 { background-color: $primary-shade-4;} 
+
+.color-secondary { background-color: $secondary;} 
+.color-secondary-tint-0 { background-color: $secondary-tint-0;} 
+.color-secondary-tint-1 { background-color: $secondary-tint-1;} 
+.color-secondary-shade-3 { background-color: $secondary-shade-3;} 
+.color-secondary-shade-4 { background-color: $secondary-shade-4;} 
+
+.color-accent { background-color: $accent;} 
+.color-accent-tint-0 { background-color: $accent-tint-0;} 
+.color-accent-tint-1 { background-color: $accent-tint-1;} 
+.color-accent-shade-3 { background-color: $accent-shade-3;} 
+.color-accent-shade-4 { background-color: $accent-shade-4;} 
+
+.color-grey-0 { background-color: $grey-0;} 
+.color-grey-1 { background-color: $grey-1;} 
+.color-grey-2 { background-color: $grey-2;} 
+.color-grey-3 { background-color: $grey-3;} 
+.color-grey-4 { background-color: $grey-4;} 
+
+
+.flexImg {
+  padding: 1rem;
+}
+
+@media screen and (max-width: 999px) {
+  .flexcontainer { flex-direction:column; }   
+  }

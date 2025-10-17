@@ -1,0 +1,44 @@
+<div class="nav-wrapper">
+  <div class="grid-wrapper">
+    <div class="width-12-12">
+      <input type="checkbox" id="checkbox" />
+      <nav id="main-nav" class="main-nav">
+  <div class="container">
+    <div class="logo-wrapper">
+        <a href="{{site.baseurl}}/"><img class="project-logo" src="{{site.baseurl}}/assets/images/logo-placeholder.png"></a>
+    </div>
+    <label class="nav-toggle" for="checkbox">
+      <i class="fa fa-bars"></i>
+    </label>
+    <ul id="menu" class="menu">
+      <li class="dropdown">
+        <span href="{{site.baseurl}}/about/">LEARN <i class="fas fa-chevron-down"></i></span>
+        <ul class="submenu">
+          <li><a href="{{site.baseurl}}/get-started" class="{% if page.url contains '/about/' %}active{% endif %}">GET STARTED</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="{{site.baseurl}}/documentation" class="{% if page.url contains '/documentation/' %}active{% endif %}">DOCUMENTATION</a>
+      </li>
+      <li>
+        <a href="{{site.baseurl}}/download" class="{% if page.url contains '/download/' %}active{% endif %}">DOWNLOAD</a></li>
+      <li>
+        <a href="{{site.baseurl}}/blog" class="{% if page.url contains '/blog/' %}active{% endif %}">BLOG</a>
+      </li>
+      <li>
+        <a href="{{site.baseurl}}/community" class="{% if page.url contains '/community/' %}active{% endif %}">COMMUNITY</a></li>
+      <li>
+      <li class="dropdown">
+        <span href="{{site.baseurl}}/language/"><div class="fas fa-globe langicon"></div><i class="fas fa-chevron-down"></i></span>
+        <ul class="submenu">
+          <li><a href="#" >ENGLISH</a></li>
+          <li><a href="#">SPANISH</a></li>
+          <li><a href="#">FRENCH</a></li>
+          </ul>
+      </li>
+    </ul>
+  </div>
+      </nav>
+    </div>
+  </div>
+</div>
